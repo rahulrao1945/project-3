@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { Search, Cpu, ArrowRight, Zap, Shield, HelpCircle, Package, Battery, Hammer, Gauge, Compass } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
-
-const API_BASE = 'http://localhost:5000/api';
+import { API_BASE } from '../config';
 
 const CATEGORIES = [
   { name: 'Arduino & ESP Boards', icon: Cpu, count: '12 Available' },

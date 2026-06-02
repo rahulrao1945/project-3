@@ -3,11 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { Plus, Trash2, CheckCircle2, ShieldAlert, Image, IndianRupee, Eye, ShoppingCart, HelpCircle, EyeOff, Clipboard, Check, Edit3 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import confetti from 'canvas-confetti';
-
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
-const API_BASE_URL = import.meta.env.VITE_API_URL 
-  ? import.meta.env.VITE_API_URL.replace('/api', '') 
-  : 'http://localhost:5000';
+import { API_BASE, API_BASE_URL } from '../config';
 
 const CATEGORIES = [
   'Arduino & ESP Boards',

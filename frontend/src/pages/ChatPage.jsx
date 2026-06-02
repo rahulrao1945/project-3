@@ -3,11 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { Send, MessageSquare, Phone, CheckCircle2, User, AlertCircle, Info, Cpu } from 'lucide-react';
 import { io } from 'socket.io-client';
 import { useAuth } from '../context/AuthContext';
-
-const API_BASE_URL = import.meta.env.VITE_API_URL 
-  ? import.meta.env.VITE_API_URL.replace('/api', '') 
-  : 'http://localhost:5000';
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+import { API_BASE, API_BASE_URL } from '../config';
 
 export default function ChatPage() {
   const { user } = useAuth();

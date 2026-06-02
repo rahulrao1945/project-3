@@ -4,11 +4,7 @@ import { MessageSquare, Heart, Eye, ArrowLeft, Star, ShoppingBag, Send, AlertCir
 import { useAuth } from '../context/AuthContext';
 import QRShare from '../components/QRShare';
 import ProductCard from '../components/ProductCard';
-
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
-const API_BASE_URL = import.meta.env.VITE_API_URL 
-  ? import.meta.env.VITE_API_URL.replace('/api', '') 
-  : 'http://localhost:5000';
+import { API_BASE, API_BASE_URL } from '../config';
 
 export default function ProductDetails() {
   const { id } = useParams();

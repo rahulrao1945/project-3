@@ -3,8 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { User, Phone, MessageSquare, ShieldCheck, Heart, Star, Edit, Save, HelpCircle, Package } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import ProductCard from '../components/ProductCard';
-
-const API_BASE = 'http://localhost:5000/api';
+import { API_BASE } from '../config';
 
 export default function ProfilePage() {
   const { user, updateProfile } = useAuth();

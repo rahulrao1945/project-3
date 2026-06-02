@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Search, SlidersHorizontal, RefreshCw, Layers, CheckSquare, Square, ToggleLeft, ToggleRight, AlertCircle } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
-
-const API_BASE = 'http://localhost:5000/api';
+import { API_BASE } from '../config';
 
 const CATEGORIES = [
   'All',
