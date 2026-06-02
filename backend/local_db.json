@@ -1,0 +1,323 @@
+{
+  "users": [
+    {
+      "_id": "b8f6c6f8-340a-417f-b79b-f7a1349d83cc",
+      "createdAt": "2026-06-02T18:05:41.351Z",
+      "updatedAt": "2026-06-02T18:05:41.352Z",
+      "name": "Professor Dave (Admin)",
+      "email": "admin@college.edu",
+      "password": "$2a$10$JOn6P0LQTxSpbZlopUFQpeZgRePRtImva/k.ep3PS0bJ22YfGcXyO",
+      "role": "admin",
+      "contactInfo": {
+        "phone": "1234567890",
+        "whatsapp": "https://wa.me/1234567890",
+        "telegram": "t.me/prof_dave"
+      },
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=admin"
+    },
+    {
+      "_id": "d0d975d7-0096-4fdd-b8db-42e6e7dea3f0",
+      "createdAt": "2026-06-02T18:05:41.354Z",
+      "updatedAt": "2026-06-02T18:05:41.354Z",
+      "name": "Alex Rivera (Senior)",
+      "email": "alex@college.edu",
+      "password": "$2a$10$JOn6P0LQTxSpbZlopUFQpeZgRePRtImva/k.ep3PS0bJ22YfGcXyO",
+      "role": "student",
+      "contactInfo": {
+        "phone": "9876543210",
+        "whatsapp": "https://wa.me/9876543210",
+        "telegram": "t.me/alex_rivera"
+      },
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=alex"
+    },
+    {
+      "_id": "96c9ce62-78a2-45ab-b35e-6f43b6ba620d",
+      "createdAt": "2026-06-02T18:05:41.357Z",
+      "updatedAt": "2026-06-02T18:05:41.357Z",
+      "name": "Rohan Sharma (Robotech Core)",
+      "email": "rohan@college.ac.in",
+      "password": "$2a$10$JOn6P0LQTxSpbZlopUFQpeZgRePRtImva/k.ep3PS0bJ22YfGcXyO",
+      "role": "student",
+      "contactInfo": {
+        "phone": "8887776665",
+        "whatsapp": "https://wa.me/8887776665",
+        "telegram": "t.me/rohan_sharma"
+      },
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=rohan"
+    },
+    {
+      "_id": "28b36f3f-fff0-491d-8b74-56f43b42c777",
+      "createdAt": "2026-06-02T18:05:41.359Z",
+      "updatedAt": "2026-06-02T18:05:41.359Z",
+      "name": "Emily Davis (Aero Club)",
+      "email": "emily@college.edu",
+      "password": "$2a$10$JOn6P0LQTxSpbZlopUFQpeZgRePRtImva/k.ep3PS0bJ22YfGcXyO",
+      "role": "student",
+      "contactInfo": {
+        "phone": "5556667777",
+        "whatsapp": "https://wa.me/5556667777",
+        "telegram": "t.me/emily_aero"
+      },
+      "avatar": "https://api.dicebear.com/7.x/bottts/svg?seed=emily"
+    }
+  ],
+  "products": [
+    {
+      "_id": "e709af54-9cef-428b-8c33-bd7fcafe8751",
+      "createdAt": "2026-06-02T18:05:41.361Z",
+      "updatedAt": "2026-06-02T18:10:54.881Z",
+      "title": "ESP32 NodeMCU Development Board",
+      "description": "Brand new ESP32 WiFi + Bluetooth board, excellent for IoT projects. Fully tested, micro-USB interface, pre-flashed with MicroPython but works great on Arduino IDE.",
+      "price": 250,
+      "condition": "New",
+      "category": "Arduino & ESP Boards",
+      "images": [
+        "https://images.unsplash.com/photo-1553406830-ef2513450d76?w=500&auto=format&fit=crop"
+      ],
+      "seller": "d0d975d7-0096-4fdd-b8db-42e6e7dea3f0",
+      "sellerName": "Alex Rivera (Senior)",
+      "sellerEmail": "alex@college.edu",
+      "status": "sold",
+      "isKit": false,
+      "views": 12
+    },
+    {
+      "_id": "31161183-2b79-4036-864b-d60222e259b1",
+      "createdAt": "2026-06-02T18:05:41.363Z",
+      "updatedAt": "2026-06-02T18:10:52.929Z",
+      "title": "Arduino Uno Starter Kit (Complete)",
+      "description": "Used for one semester. Includes Arduino Uno R3 board, USB cable, breadboard, 65 jumper wires, LCD 1602 module, 5V relay, active buzzers, and a bundle of LEDs/Resistors in a plastic storage organizer box.",
+      "price": 499,
+      "condition": "Good",
+      "category": "Arduino & ESP Boards",
+      "images": [
+        "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=500&auto=format&fit=crop"
+      ],
+      "seller": "d0d975d7-0096-4fdd-b8db-42e6e7dea3f0",
+      "sellerName": "Alex Rivera (Senior)",
+      "sellerEmail": "alex@college.edu",
+      "status": "sold",
+      "isKit": true,
+      "views": 34
+    },
+    {
+      "_id": "499a0b50-a8c7-4315-9226-137459702796",
+      "createdAt": "2026-06-02T18:05:41.364Z",
+      "updatedAt": "2026-06-02T18:05:41.364Z",
+      "title": "Quadcopter Carbon Fiber Frame (QAV250)",
+      "description": "Heavy-duty 250mm pure carbon fiber quadcopter frame. Extremely durable and crash-resistant. Ideal for FPV racing drones or college aero-modeling projects. Weight is only 140g.",
+      "price": 900,
+      "condition": "Used",
+      "category": "Drone Components",
+      "images": [
+        "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=500&auto=format&fit=crop"
+      ],
+      "seller": "28b36f3f-fff0-491d-8b74-56f43b42c777",
+      "sellerName": "Emily Davis (Aero Club)",
+      "sellerEmail": "emily@college.edu",
+      "status": "available",
+      "isKit": false,
+      "views": 18
+    },
+    {
+      "_id": "f4d4e628-6cb8-40f0-9a39-ec3bbeef0bda",
+      "createdAt": "2026-06-02T18:05:41.365Z",
+      "updatedAt": "2026-06-02T18:05:41.365Z",
+      "title": "Lipo Battery 3S 2200mAh 35C (XT60)",
+      "description": "2 units of Orange LiPo batteries. Used only 3 times for my drone testing. Well-balanced, cell voltage is perfectly stable at 3.8V storage charge. Standard XT60 discharge connector and JST-XH balance plug.",
+      "price": 650,
+      "condition": "Good",
+      "category": "Batteries",
+      "images": [
+        "https://images.unsplash.com/photo-1548142813-c348350df52b?w=500&auto=format&fit=crop"
+      ],
+      "seller": "28b36f3f-fff0-491d-8b74-56f43b42c777",
+      "sellerName": "Emily Davis (Aero Club)",
+      "sellerEmail": "emily@college.edu",
+      "status": "available",
+      "isKit": false,
+      "views": 29
+    },
+    {
+      "_id": "e3a733c9-b763-4d89-b6e0-5cc91c846fc8",
+      "createdAt": "2026-06-02T18:05:41.367Z",
+      "updatedAt": "2026-06-02T18:05:41.367Z",
+      "title": "MG996R Metal Gear High Torque Servo",
+      "description": "4 heavy-duty metal gear servos. 12kg torque, ideal for robotic arms, steering mechanisms, or hexapods. Selling all 4 as a package.",
+      "price": 350,
+      "condition": "New",
+      "category": "Motors & Drivers",
+      "images": [
+        "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500&auto=format&fit=crop"
+      ],
+      "seller": "96c9ce62-78a2-45ab-b35e-6f43b6ba620d",
+      "sellerName": "Rohan Sharma (Robotech Core)",
+      "sellerEmail": "rohan@college.ac.in",
+      "status": "available",
+      "isKit": false,
+      "views": 7
+    },
+    {
+      "_id": "a1a8546e-4fa1-48b2-99aa-792132b5cd9b",
+      "createdAt": "2026-06-02T18:05:41.368Z",
+      "updatedAt": "2026-06-02T18:05:41.368Z",
+      "title": "Ultrasonic Sensors HC-SR04 (Pack of 5)",
+      "description": "5 high-accuracy distance measuring sensors. Ranges from 2cm to 400cm. Fully functional. Used for obstacle avoidance on my smart car. Selling the excess.",
+      "price": 150,
+      "condition": "Good",
+      "category": "Sensors",
+      "images": [
+        "https://images.unsplash.com/photo-1581092334651-ddf26d9aae9f?w=500&auto=format&fit=crop"
+      ],
+      "seller": "96c9ce62-78a2-45ab-b35e-6f43b6ba620d",
+      "sellerName": "Rohan Sharma (Robotech Core)",
+      "sellerEmail": "rohan@college.ac.in",
+      "status": "available",
+      "isKit": false,
+      "views": 22
+    },
+    {
+      "_id": "166f34d8-ed1c-4fc7-bf62-f0517797f1b0",
+      "createdAt": "2026-06-02T18:05:41.369Z",
+      "updatedAt": "2026-06-02T18:10:49.647Z",
+      "title": "Soldering Iron Kit with Temperature Adjuster",
+      "description": "Adjustable temperature soldering iron (60W) with 5 replacement tips, soldering wire tube, desoldering pump, tweezers, and simple iron stand. Ideal kit for electronic prototyping.",
+      "price": 450,
+      "condition": "Good",
+      "category": "Tools",
+      "images": [
+        "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=500&auto=format&fit=crop"
+      ],
+      "seller": "d0d975d7-0096-4fdd-b8db-42e6e7dea3f0",
+      "sellerName": "Alex Rivera (Senior)",
+      "sellerEmail": "alex@college.edu",
+      "status": "sold",
+      "isKit": false,
+      "views": 45
+    },
+    {
+      "_id": "a7eab48d-ceca-4505-8fad-a73ac4931eb9",
+      "createdAt": "2026-06-02T18:05:41.371Z",
+      "updatedAt": "2026-06-02T18:05:41.371Z",
+      "title": "Line Follower Robot (LFR) Complete Project Kit",
+      "description": "Full college-ready project. Includes pre-assembled chassis, Arduino Uno, L293D motor driver shield, 5-array IR sensor board, 2x 300RPM geared motors, and chassis battery holder. Ready-to-flash code file included inside local repository!",
+      "price": 1200,
+      "condition": "Good",
+      "category": "Robotics Parts",
+      "images": [
+        "https://images.unsplash.com/photo-1531747118685-ca8fa6e08806?w=500&auto=format&fit=crop"
+      ],
+      "seller": "96c9ce62-78a2-45ab-b35e-6f43b6ba620d",
+      "sellerName": "Rohan Sharma (Robotech Core)",
+      "sellerEmail": "rohan@college.ac.in",
+      "status": "available",
+      "isKit": true,
+      "views": 67
+    },
+    {
+      "_id": "d6faa7c0-0efa-48ce-aa55-cf46ebb51aae",
+      "createdAt": "2026-06-02T18:05:41.373Z",
+      "updatedAt": "2026-06-02T18:10:47.710Z",
+      "title": "Laptop Cooling Pad with 4 Blue LED Fans",
+      "description": "Ergonomic dual-angle cooling pad with 4 high-speed quiet fans. Powered by USB cable, extra pass-through USB port. Suitable for gaming or programming laptops up to 17 inches.",
+      "price": 300,
+      "condition": "Good",
+      "category": "Laptop Accessories",
+      "images": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&auto=format&fit=crop"
+      ],
+      "seller": "d0d975d7-0096-4fdd-b8db-42e6e7dea3f0",
+      "sellerName": "Alex Rivera (Senior)",
+      "sellerEmail": "alex@college.edu",
+      "status": "sold",
+      "isKit": false,
+      "views": 11
+    },
+    {
+      "_id": "45d18939-d57b-43b5-9453-6a570ba879a1",
+      "createdAt": "2026-06-02T18:05:41.374Z",
+      "updatedAt": "2026-06-02T18:10:39.963Z",
+      "title": "Fake SparkFun Breadboard - Mock Spam Post",
+      "description": "This is a test spam post that violates guidelines. It sells commercial replica items at astronomical prices and does not allow student exchanges. It should be flagged and removed by an Administrator.",
+      "price": 99999,
+      "condition": "New",
+      "category": "Miscellaneous",
+      "images": [
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop"
+      ],
+      "seller": "d0d975d7-0096-4fdd-b8db-42e6e7dea3f0",
+      "sellerName": "Alex Rivera (Senior)",
+      "sellerEmail": "alex@college.edu",
+      "status": "sold",
+      "isKit": false,
+      "views": 1
+    }
+  ],
+  "messages": [
+    {
+      "_id": "09d46f5f-5bff-400d-af0c-6e1602696c49",
+      "createdAt": "2026-06-02T18:05:41.381Z",
+      "updatedAt": "2026-06-02T18:05:41.381Z",
+      "sender": "96c9ce62-78a2-45ab-b35e-6f43b6ba620d",
+      "receiver": "d0d975d7-0096-4fdd-b8db-42e6e7dea3f0",
+      "senderName": "Rohan Sharma (Robotech Core)",
+      "receiverName": "Alex Rivera (Senior)",
+      "content": "Hey Alex, is the Soldering Iron Kit still available? I can meet you at the Student Union building tomorrow.",
+      "roomId": "96c9ce62-78a2-45ab-b35e-6f43b6ba620d-d0d975d7-0096-4fdd-b8db-42e6e7dea3f0"
+    },
+    {
+      "_id": "1972f491-ae51-40af-9f51-69ba5f1f8f37",
+      "createdAt": "2026-06-02T18:05:41.382Z",
+      "updatedAt": "2026-06-02T18:05:41.382Z",
+      "sender": "d0d975d7-0096-4fdd-b8db-42e6e7dea3f0",
+      "receiver": "96c9ce62-78a2-45ab-b35e-6f43b6ba620d",
+      "senderName": "Alex Rivera (Senior)",
+      "receiverName": "Rohan Sharma (Robotech Core)",
+      "content": "Hey Rohan! Yes, it is still available. Tomorrow at the Student Union works perfectly. Any time after 2 PM is fine with me.",
+      "roomId": "96c9ce62-78a2-45ab-b35e-6f43b6ba620d-d0d975d7-0096-4fdd-b8db-42e6e7dea3f0"
+    },
+    {
+      "_id": "2367462e-fcf1-458f-a6df-641ebd38cfe2",
+      "createdAt": "2026-06-02T18:05:41.384Z",
+      "updatedAt": "2026-06-02T18:05:41.384Z",
+      "sender": "96c9ce62-78a2-45ab-b35e-6f43b6ba620d",
+      "receiver": "d0d975d7-0096-4fdd-b8db-42e6e7dea3f0",
+      "senderName": "Rohan Sharma (Robotech Core)",
+      "receiverName": "Alex Rivera (Senior)",
+      "content": "Great! Let us meet at 3 PM near the main cafeteria entrance. I will bring cash.",
+      "roomId": "96c9ce62-78a2-45ab-b35e-6f43b6ba620d-d0d975d7-0096-4fdd-b8db-42e6e7dea3f0"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "0feeb0d6-d923-4a7f-bfd3-16ee9a1bc7e7",
+      "createdAt": "2026-06-02T18:05:41.376Z",
+      "updatedAt": "2026-06-02T18:05:41.376Z",
+      "reviewer": "96c9ce62-78a2-45ab-b35e-6f43b6ba620d",
+      "reviewerName": "Rohan Sharma (Robotech Core)",
+      "seller": "d0d975d7-0096-4fdd-b8db-42e6e7dea3f0",
+      "rating": 5,
+      "comment": "Alex was super helpful! The soldering iron was in pristine condition, and he even gave me some extra soldering wire for free!"
+    },
+    {
+      "_id": "1bcaec72-282a-4a45-8951-34947e02d594",
+      "createdAt": "2026-06-02T18:05:41.377Z",
+      "updatedAt": "2026-06-02T18:05:41.377Z",
+      "reviewer": "d0d975d7-0096-4fdd-b8db-42e6e7dea3f0",
+      "reviewerName": "Alex Rivera (Senior)",
+      "seller": "28b36f3f-fff0-491d-8b74-56f43b42c777",
+      "rating": 4,
+      "comment": "Battery operates beautifully! It was storage-charged as described. Smooth transaction inside the central library cafeteria."
+    },
+    {
+      "_id": "4a1962c9-6255-41ed-b2c0-d6f1e64cfd92",
+      "createdAt": "2026-06-02T18:05:41.379Z",
+      "updatedAt": "2026-06-02T18:05:41.379Z",
+      "reviewer": "d0d975d7-0096-4fdd-b8db-42e6e7dea3f0",
+      "reviewerName": "Alex Rivera (Senior)",
+      "seller": "96c9ce62-78a2-45ab-b35e-6f43b6ba620d",
+      "rating": 5,
+      "comment": "Rohan is a robotics expert! He explained the entire LFR schematic during handover. Outstanding!"
+    }
+  ]
+}
